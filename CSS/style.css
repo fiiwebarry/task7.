@@ -1,0 +1,33 @@
+
+body{
+    font-family: 'Libre Baskerville', serif !important;
+}
+.main-color{
+    color: #D14200 !important;
+}
+.main-colorbg{
+    background-color: #D14200 !important;
+}
+nav ul li a:hover{
+    color: #D14200 !important;
+    font-weight: bold;
+}
+/* Hero section */
+.parallax{
+    background: url(../images/Happy.jpg) no-repeat ;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+.view-btn:hover{
+    color: white !important;
+    background-color: #D14200 !important;
+    border: none !important;
+}
+
+@media screen and (min-width:768px){
+    #post-form{
+        width: 70% !important;
+    }
+}
